@@ -1494,25 +1494,25 @@ files = [
 
 [[package]]
 name = "ipywidgets"
-version = "7.8.2"
+version = "7.7.1"
 description = "IPython HTML widgets for Jupyter"
 optional = false
 python-versions = "*"
 files = [
-    {file = "ipywidgets-7.8.2-py2.py3-none-any.whl", hash = "sha256:de9b0b0ab5238f107aee8429eb855121e825025aac556fec17d0bd51422aa256"},
-    {file = "ipywidgets-7.8.2.tar.gz", hash = "sha256:282a550abab40831e08e1aab0b04aaf5c01494ff919faa44d3ac624f4cbc8fd0"},
+    {file = "ipywidgets-7.7.1-py2.py3-none-any.whl", hash = "sha256:aa1076ab7102b2486ae2607c43c243200a07c17d6093676c419d4b6762489a50"},
+    {file = "ipywidgets-7.7.1.tar.gz", hash = "sha256:5f2fa1b7afae1af32c88088c9828ad978de93ddda393d7ed414e553fee93dcab"},
 ]
 
 [package.dependencies]
-comm = ">=0.1.3"
+ipykernel = ">=4.5.1"
 ipython = {version = ">=4.0.0", markers = "python_version >= \"3.3\""}
 ipython-genutils = ">=0.2.0,<0.3.0"
-jupyterlab-widgets = {version = ">=1.0.0,<3", markers = "python_version >= \"3.6\""}
+jupyterlab-widgets = {version = ">=1.0.0", markers = "python_version >= \"3.6\""}
 traitlets = ">=4.3.1"
-widgetsnbextension = ">=3.6.7,<3.7.0"
+widgetsnbextension = ">=3.6.0,<3.7.0"
 
 [package.extras]
-test = ["ipykernel", "mock", "pytest (>=3.6.0)", "pytest-cov"]
+test = ["mock", "pytest (>=3.6.0)", "pytest-cov"]
 
 [[package]]
 name = "isoduration"
@@ -1847,13 +1847,13 @@ test = ["hatch", "ipykernel", "openapi-core (>=0.18.0,<0.19.0)", "openapi-spec-v
 
 [[package]]
 name = "jupyterlab-widgets"
-version = "1.1.8"
-description = "A JupyterLab extension."
+version = "3.0.11"
+description = "Jupyter interactive widgets for JupyterLab"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 files = [
-    {file = "jupyterlab_widgets-1.1.8-py3-none-any.whl", hash = "sha256:0c2bfb266b6da013710618ab1263f347a730503d197c4a9f447f293d186544a2"},
-    {file = "jupyterlab_widgets-1.1.8.tar.gz", hash = "sha256:3df97fed92fed52dd2e8de61d870eb692d3efcdb1b99ba7874ec738df97429f2"},
+    {file = "jupyterlab_widgets-3.0.11-py3-none-any.whl", hash = "sha256:78287fd86d20744ace330a61625024cf5521e1c012a352ddc0a3cdc2348becd0"},
+    {file = "jupyterlab_widgets-3.0.11.tar.gz", hash = "sha256:dd5ac679593c969af29c9bed054c24f26842baa51352114736756bc035deee27"},
 ]
 
 [[package]]
@@ -5648,4 +5648,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "36d373432a6e5294462f5d7315bf371d7a4a3a349ef8bf785d028fbf5876d56b"
+content-hash = "53cb5391aeb55c07cfbb6da1e34e36fbf9a7732a6960ff56620d947563040cb2"

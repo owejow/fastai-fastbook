@@ -15,7 +15,7 @@ If you see someone hosting a copy of these materials somewhere else, please let 
 1) get a shell with base requirements:
 
 ```bash
-  % nix develop -f shell.nix
+  % nix develop 
 ```
 
 NOTE: install "nix" tool from: <https://determinate.systems/oss/>
